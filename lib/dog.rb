@@ -7,7 +7,7 @@ class Dog
   end
 
   def self.all
-    names = []
+    
     @@all.each do |puppy|
       puts "puppy.name"
   end
