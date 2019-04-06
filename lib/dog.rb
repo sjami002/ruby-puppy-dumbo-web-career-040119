@@ -1,7 +1,15 @@
 class Dog
   @@all = []
   
-  def initialize
+  def initialize(name)
+    @name = name
     @@all << self
-end
+  end
+
+  def self.all
+    names = []
+    @@all.each do |puppy|
+      puts "puppy.name"
+  end
+  
 end
